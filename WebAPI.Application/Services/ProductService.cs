@@ -95,7 +95,7 @@ namespace WebAPI.Application.Services
                 response.PageNumber = filter.PageNumber;
                 response.PageSize = filter.PageSize;
 
-                response.TotalPages = (int)Math.Ceiling( (double)(response.TotalRecords / response.PageSize) );
+                response.TotalPages = (int)Math.Ceiling( (response.TotalRecords / (double)response.PageSize) );
                 response.IsSuccess = true;
                 response.Data = products.Skip((filter.PageNumber - 1) * filter.PageSize).Take(filter.PageSize).ToList();
             }
