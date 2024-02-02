@@ -15,9 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.Application", "WebAP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.TestUnit", "WebAPI.TestUnit\WebAPI.TestUnit.csproj", "{0393E2B6-40DB-4636-A053-A1FD69AAD9BE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker-compose", "Docker-compose", "{D8E410ED-FE81-490D-862B-3F8727E3FA0D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{395E3645-1823-4B42-9BC1-A5F411B5F602}"
 	ProjectSection(SolutionItems) = preProject
-		D:\Docker-commands\mysql\docker-compose.yaml = D:\Docker-commands\mysql\docker-compose.yaml
+		docker-compose.yaml = docker-compose.yaml
 	EndProjectSection
 EndProject
 Global
